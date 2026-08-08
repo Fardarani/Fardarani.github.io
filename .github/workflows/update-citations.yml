@@ -66,5 +66,6 @@ jobs:
             echo "No citation changes."
           else
             git commit -m "Update citation counts"
-            git push
+            git pull --rebase origin main
+            git push origin main
           fi
