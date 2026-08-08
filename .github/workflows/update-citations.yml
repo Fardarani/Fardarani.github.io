@@ -1,4 +1,3 @@
-```yaml
 name: Update Citation Counts
 
 on:
@@ -52,12 +51,9 @@ jobs:
                       data = json.load(response)
 
                   citation_count = data.get("cited_by_count", 0)
-
                   publication["citations"] = citation_count
 
-                  print(
-                      f"[{i}] SUCCESS: {doi} -> {citation_count} citations"
-                  )
+                  print(f"[{i}] SUCCESS: {doi} -> {citation_count} citations")
 
               except Exception as e:
                   print(f"[{i}] ERROR: {doi}")
@@ -74,7 +70,6 @@ jobs:
               )
 
           print("Finished updating citation counts.")
-
           PY
 
       - name: Commit and push changes
@@ -91,4 +86,3 @@ jobs:
             git pull --rebase origin main
             git push origin main
           fi
-```
