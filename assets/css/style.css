@@ -668,6 +668,12 @@ body{
 
 }
 
+.citation-count{
+    margin-left:16px;
+    color:var(--muted);
+    font-size:14px;
+    font-weight:600;
+}
 
 .publication-details a:hover{
 
