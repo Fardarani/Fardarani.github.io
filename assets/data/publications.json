@@ -1,320 +1,320 @@
 [
-  {
-    "year": 2020,
-    "title": "The RBF partition of unity method for solving the Klein-Gordon equation",
-    "authors": "Mohammadreza Ahmadi Darani",
-    "journal": "Engineering with Computers",
-    "doi": "10.1007/s00366-020-01171-z",
-    "keywords": [
-      "Radial Basis Functions",
-      "Partition of Unity",
-      "Klein-Gordon Equation",
-      "Meshless Methods",
-      "Numerical Analysis"
-    ],
-    "type": "Journal Article",
-    "citations": 21
-  },
-  {
-    "year": 2018,
-    "title": "On asymptotic stability of Weber fractional differential systems",
-    "authors": "Derakhshan, Mohammad Hossein and Ansari, Alireza and Ahmadi Darani, Mohammadreza",
-    "journal": "Computational Methods for Differential Equations",
-    "doi": "https://cmde.tabrizu.ac.ir/article_6808.html",
-    "keywords": [
-      "Asymptotically stable",
-      "Weber fractional derivative",
-      "Riemann-Liouville fractional derivative"
-    ],
-    "type": "Journal Article"
-  },
-  {
-    "year": 2024,
-    "title": "RBF-based partition of unity methods for two-dimensional time-dependent PDEs: Numerical and theoretical aspects",
-    "authors": "Banafsheh Raeisi, Mojtaba Fardi, Mohammadreza Ahmadi Darani",
-    "journal": "Mathematics and Computers in Simulation",
-    "doi": "https://doi.org/10.1016/j.matcom.2024.07.001",
-    "keywords": [
-      "Time-dependent equations",
-      "Standard partition of unity",
-      "Direct partition of unity",
-      "Error estimate"
-    ],
-    "type": "Journal Article",
-    "citations": 4
-  },
-  {
-    "year": 2025,
-    "title": "A stable numerical investigation based on geometric greedy points for 2D time-fractional partial integro-differential equations with singular kernels",
-    "authors": "Mojtaba Fardi, Banafsheh Raeisi, Mohammadreza Ahmadi Darani",
-    "journal": "Engineering Analysis with Boundary Elements",
-    "doi": "https://doi.org/10.1016/j.enganabound.2025.106129",
-    "keywords": [
-      "Geometric greedy points",
-      "Time-fractional partial integro-differential equations",
-      "Singular kernels",
-      "RBF-HFD"
-    ],
-    "type": "Journal Article",
-    "citations": 3
-  },
-  {
-    "year": 2024,
-    "title": "The direct RBF-based partition of unity method for solving nonlinear fractional parabolic equations",
-    "authors": "Banafsheh Raeisi and Mohammadreza Ahmadi Darani and Mojtaba Fardi",
-    "journal": "Engineering Analysis with Boundary Elements",
-    "doi": "https://doi.org/10.1016/j.enganabound.2024.03.014",
-    "keywords": [
-      "Direct RBF-based partition of unity",
-      "Nonlinear fractional parabolic equations",
-      "Convergence analysis",
-      "Error bound"
-    ],
-    "type": "Journal Article",
-    "citations": 2
-  },
-  {
-    "year": 2020,
-    "title": "Polynomial partition of unity; an efficient tool for function approximation",
-    "authors": "Davoud Mirzaei, Mohammad Reza Ahmadi Darani and Saeed Vahdati",
-    "journal": "Journal of Mathematical Extension",
-    "doi": "https://doi.org/10.22108/msci.2021.127648.1417",
-    "keywords": [
-      "Polynomial partition of unity",
-      "Function approximation",
-      "Multivariate polynomials",
-      "Stability estimate",
-      "Convergence estimate"
-    ],
-    "type": "Journal Article",
-    "citations": 0
-  },
-  {
-    "year": 2026,
-    "title": "An RBF-based method with optimal point selection for solving two-dimensional multi-term time-fractional PIDEs with weakly singular kernels",
-    "authors": "M. Fardi, B. Raeisi, M. Ahmadi Darani",
-    "journal": "Mathematics and Computers in Simulation",
-    "doi": "https://doi.org/10.1016/j.matcom.2025.11.013",
-    "keywords": [
-      "Geometric greedy algorithm",
-      "RBF-generated finite difference method",
-      "Optimal point",
-      "Multi-term time-fractional",
-      "Singular kernel"
-    ],
-    "type": "Journal Article",
-    "citations": 2
-  },
-  {
-    "year": 2012,
-    "title": "New Inversion Techniques for Some Integral Transforms via the Generalized Product Theorem of the Mellin Transform",
-    "authors": "Alireza Ansari and Mohammadreza Ahmadi Darani",
-    "journal": "ISRN Applied Mathematics",
-    "doi": "https://doi.org/10.5402/2012/608712",
-    "keywords": [
-      "Mellin transform",
-      "Singular integral equations",
-      "Wright transform",
-      "Mittag-Leffler transform",
-      "Stieltjes transform",
-      "Widder potential transform"
-    ],
-    "type": "Journal Article",
-    "citations": 1
-  },
-  {
-    "year": 2017,
-    "title": "Fractional Black-Scholes model with regularized Prabhakar derivative",
-    "authors": "Eshaghi, Shiva and Ansari, Alireza and Ghaziani, Reza Khoshsiar and Ahmadi Darani, Mohammadreza",
-    "journal": "Publications de l'Institut Mathematique",
-    "doi": "https://doi.org/10.2298/PIM1716121E",
-    "keywords": [
-      "Fractional calculus",
-      "Prabhakar derivative",
-      "Black-Scholes model",
-      "Financial mathematics",
-      "Variational iteration method"
-    ],
-    "type": "Journal Article",
-    "citations": 13
-  },
-  {
-    "year": 2017,
-    "title": "The operational matrix of fractional derivative of the fractional-order Chebyshev functions and its applications",
-    "authors": "Ahmadi Darani, Mohammadreza and Saadatmandi, Abbas",
-    "journal": "Computational Methods for Differential Equations",
-    "doi": "https://cmde.tabrizu.ac.ir/article_5902.html",
-    "keywords": [
-      "Chebyshev polynomials",
-      "Orthogonal system",
-      "Fractional differential equation",
-      "Fractional-order Chebyshev functions",
-      "Operational matrix"
-    ],
-    "type": "Journal Article"
-  },
-  {
-    "year": 2016,
-    "title": "On asymptotic stability of Prabhakar fractional differential systems",
-    "authors": "Derakhshan, Mohammad Hossein and Ahmadi Darani, Mohammadreza and Ansari, Alireza and Khoshsiar Ghaziani, Reza",
-    "journal": "Computational Methods for Differential Equations",
-    "doi": "https://cmde.tabrizu.ac.ir/article_5645.html",
-    "keywords": [
-      "Asymptotic stability",
-      "Prabhakar fractional derivative",
-      "Generalized Mittag-Leffler function",
-      "Riemann-Liouville fractional derivative"
-    ],
-    "type": "Journal Article"
-  },
-  {
-    "year": 2016,
-    "title": "Direct meshless local Petrov-Galerkin method for the two-dimensional Klein-Gordon equation",
-    "authors": "Mohammadreza Ahmadi Darani",
-    "journal": "Engineering Analysis with Boundary Elements",
-    "doi": "https://doi.org/10.1016/j.enganabound.2016.10.002",
-    "keywords": [
-      "Meshless Methods",
-      "Petrov-Galerkin Method",
-      "Klein-Gordon Equation",
-      "Numerical Analysis",
-      "Differential Equations"
-    ],
-    "type": "Journal Article",
-    "citations": 19
-  },
-  {
-    "year": 2014,
-    "title": "Fractional type of flatlet oblique multiwavelet for solving fractional differential and integro-differential equations",
-    "authors": "Ahmadi Darani, Mohammadreza and Bagheri, Shirin",
-    "journal": "Computational Methods for Differential Equations",
-    "doi": "",
-    "keywords": [
-      "Integro-differential equations",
-      "Fractional type of flatlet oblique multiwavelets",
-      "Biorthogonal flatlet multiwavelet system"
-    ],
-    "type": "Journal Article"
-  },
-  {
-    "year": 2008,
-    "title": "Flatlet oblique multiwavelet for solving integro-differential equations",
-    "authors": "M.R. Ahmadi Darani and H. Adibi and R.P. Agarwal and R. Saadati",
-    "journal": "Dynamics of Continuous, Discrete and Impulsive Systems Series A: Mathematical Analysis",
-    "doi": "",
-    "keywords": [
-      "Integro-differential equations",
-      "Flatlet oblique multiwavelets",
-      "Biorthogonal multiwavelets",
-      "Operational matrix"
-    ],
-    "type": "Journal Article"
-  },
-  {
-    "year": 2010,
-    "title": "Numerical solution of integro-differential equations using flatlet oblique multiwavelets",
-    "authors": "M. R. A. Darani and H. Adibi and M. Lakestani",
-    "journal": "Dynamics of Continuous, Discrete and Impulsive Systems Series A: Mathematical Analysis",
-    "doi": "",
-    "keywords": [
-      "Integro-differential equations",
-      "Flatlet oblique multiwavelets",
-      "Biorthogonal basis",
-      "Numerical solution"
-    ],
-    "type": "Journal Article"
-  },
-  {
-    "year": 2007,
-    "title": "The Chebyshev Tau technique for the solution of Laplace's equation",
-    "authors": "M.R. Ahmadi and H. Adibi",
-    "journal": "Applied Mathematics and Computation",
-    "doi": "https://doi.org/10.1016/j.amc.2006.05.212",
-    "keywords": [
-      "Chebyshev Tau method",
-      "Laplace equation",
-      "Operational matrix",
-      "Chebyshev polynomials"
-    ],
-    "type": "Journal Article",
-    "citations": 6
-  },
-  {
-    "year": 2012,
-    "title": "On Fractional Mittag-Leffler Operators",
-    "authors": "Ansari, Alireza and Ahmadi Darani, Mohammadreza and Moradi, Mohammad",
-    "journal": "Reports on Mathematical Physics",
-    "doi": "https://doi.org/10.1016/S0034-4877(13)60017-8",
-    "keywords": [
-      "Mellin transform",
-      "Fractional differential systems",
-      "Mittag-Leffler function",
-      "Operational calculus",
-      "Fractional operators"
-    ],
-    "type": "Journal Article",
-    "citations": 12
-  },
-  {
-    "year": 2013,
-    "title": "A fractional type of the Chebyshev polynomials for approximation of solution of linear fractional differential equations",
-    "authors": "Ahmadi Darani, Mohammadreza and Nasiri, Mitra",
-    "journal": "Computational Methods for Differential Equations",
-    "doi": "https://cmde.tabrizu.ac.ir/article_598.html",
-    "keywords": [
-      "Chebyshev polynomials",
-      "Orthogonal system",
-      "Fractional differential equation",
-      "Fractional-order Chebyshev functions",
-      "Operational matrix"
-    ],
-    "type": "Journal Article"
-  },
-  {
-    "year": 2025,
-    "title": "Corrigendum to A stable numerical investigation based on geometric greedy points for 2D time-fractional partial integro-differential equations with singular kernels",
-    "authors": "Mojtaba Fardi, Banafsheh Raeisi, Mohammadreza Ahmadi Darani",
-    "journal": "Engineering Analysis with Boundary Elements",
-    "doi": "https://doi.org/10.1016/j.enganabound.2025.106248",
-    "keywords": [
-      "Corrigendum",
-      "Geometric greedy points",
-      "Time-fractional partial integro-differential equations",
-      "Singular kernels"
-    ],
-    "type": "Journal Article",
-    "citations": 0
-  },
-  {
-    "year": 2026,
-    "title": "RBF partition of unity method for solving nonlinear multi-term fractional parabolic PDEs on irregular domains: A numerical study and error analysis",
-    "authors": "Banafsheh Raeisi, Mojtaba Fardi, Mohammadreza Ahmadi Darani",
-    "journal": "Journal of Computational Science",
-    "doi": "https://doi.org/10.1016/j.jocs.2026.102783",
-    "keywords": [
-      "Radial basis function partition of unity",
-      "Multi-term fractional parabolic PDEs",
-      "Irregular domains",
-      "Variable-step time-stepping",
-      "Polyharmonic spline kernels"
-    ],
-    "type": "Journal Article",
-    "citations": 0
-  },
-  {
-    "year": 2020,
-    "title": "A Petrov-Galerkin RBF method for diffusion equation on the unit sphere",
-    "authors": "Mohammadreza Ahmadi Darani and Davoud Mirzaei",
-    "journal": "Numerical Methods for Partial Differential Equations",
-    "doi": "https://doi.org/10.1002/num.22498",
-    "keywords": [
-      "Spherical basis functions",
-      "Radial basis functions",
-      "Meshless methods",
-      "Petrov-Galerkin method",
-      "Diffusion on the sphere"
-    ],
-    "type": "Journal Article",
-    "citations": 0
-  }
+{
+"year": 2020,
+"title": "The RBF partition of unity method for solving the Klein-Gordon equation",
+"authors": "Mohammadreza Ahmadi Darani",
+"journal": "Engineering with Computers",
+"doi": "10.1007/s00366-020-01171-z",
+"keywords": [
+"Radial Basis Functions",
+"Partition of Unity",
+"Klein-Gordon Equation",
+"Meshless Methods",
+"Numerical Analysis"
+],
+"type": "Journal Article",
+"citations": 21
+},
+{
+"year": 2018,
+"title": "On asymptotic stability of Weber fractional differential systems",
+"authors": "Derakhshan, Mohammad Hossein and Ansari, Alireza and Ahmadi Darani, Mohammadreza",
+"journal": "Computational Methods for Differential Equations",
+"doi": "",
+"keywords": [
+"Asymptotically stable",
+"Weber fractional derivative",
+"Riemann-Liouville fractional derivative"
+],
+"type": "Journal Article"
+},
+{
+"year": 2024,
+"title": "RBF-based partition of unity methods for two-dimensional time-dependent PDEs: Numerical and theoretical aspects",
+"authors": "Banafsheh Raeisi, Mojtaba Fardi, Mohammadreza Ahmadi Darani",
+"journal": "Mathematics and Computers in Simulation",
+"doi": "10.1016/j.matcom.2024.07.001",
+"keywords": [
+"Time-dependent equations",
+"Standard partition of unity",
+"Direct partition of unity",
+"Error estimate"
+],
+"type": "Journal Article",
+"citations": 4
+},
+{
+"year": 2025,
+"title": "A stable numerical investigation based on geometric greedy points for 2D time-fractional partial integro-differential equations with singular kernels",
+"authors": "Mojtaba Fardi, Banafsheh Raeisi, Mohammadreza Ahmadi Darani",
+"journal": "Engineering Analysis with Boundary Elements",
+"doi": "10.1016/j.enganabound.2025.106129",
+"keywords": [
+"Geometric greedy points",
+"Time-fractional partial integro-differential equations",
+"Singular kernels",
+"RBF-HFD"
+],
+"type": "Journal Article",
+"citations": 3
+},
+{
+"year": 2024,
+"title": "The direct RBF-based partition of unity method for solving nonlinear fractional parabolic equations",
+"authors": "Banafsheh Raeisi and Mohammadreza Ahmadi Darani and Mojtaba Fardi",
+"journal": "Engineering Analysis with Boundary Elements",
+"doi": "10.1016/j.enganabound.2024.03.014",
+"keywords": [
+"Direct RBF-based partition of unity",
+"Nonlinear fractional parabolic equations",
+"Convergence analysis",
+"Error bound"
+],
+"type": "Journal Article",
+"citations": 2
+},
+{
+"year": 2020,
+"title": "Polynomial partition of unity; an efficient tool for function approximation",
+"authors": "Davoud Mirzaei, Mohammad Reza Ahmadi Darani and Saeed Vahdati",
+"journal": "Journal of Mathematical Extension",
+"doi": "10.22108/msci.2021.127648.1417",
+"keywords": [
+"Polynomial partition of unity",
+"Function approximation",
+"Multivariate polynomials",
+"Stability estimate",
+"Convergence estimate"
+],
+"type": "Journal Article",
+"citations": 0
+},
+{
+"year": 2026,
+"title": "An RBF-based method with optimal point selection for solving two-dimensional multi-term time-fractional PIDEs with weakly singular kernels",
+"authors": "M. Fardi, B. Raeisi, M. Ahmadi Darani",
+"journal": "Mathematics and Computers in Simulation",
+"doi": "10.1016/j.matcom.2025.11.013",
+"keywords": [
+"Geometric greedy algorithm",
+"RBF-generated finite difference method",
+"Optimal point",
+"Multi-term time-fractional",
+"Singular kernel"
+],
+"type": "Journal Article",
+"citations": 2
+},
+{
+"year": 2012,
+"title": "New Inversion Techniques for Some Integral Transforms via the Generalized Product Theorem of the Mellin Transform",
+"authors": "Alireza Ansari and Mohammadreza Ahmadi Darani",
+"journal": "ISRN Applied Mathematics",
+"doi": "10.5402/2012/608712",
+"keywords": [
+"Mellin transform",
+"Singular integral equations",
+"Wright transform",
+"Mittag-Leffler transform",
+"Stieltjes transform",
+"Widder potential transform"
+],
+"type": "Journal Article",
+"citations": 1
+},
+{
+"year": 2017,
+"title": "Fractional Black-Scholes model with regularized Prabhakar derivative",
+"authors": "Eshaghi, Shiva and Ansari, Alireza and Ghaziani, Reza Khoshsiar and Ahmadi Darani, Mohammadreza",
+"journal": "Publications de l'Institut Mathematique",
+"doi": "10.2298/PIM1716121E",
+"keywords": [
+"Fractional calculus",
+"Prabhakar derivative",
+"Black-Scholes model",
+"Financial mathematics",
+"Variational iteration method"
+],
+"type": "Journal Article",
+"citations": 13
+},
+{
+"year": 2017,
+"title": "The operational matrix of fractional derivative of the fractional-order Chebyshev functions and its applications",
+"authors": "Ahmadi Darani, Mohammadreza and Saadatmandi, Abbas",
+"journal": "Computational Methods for Differential Equations",
+"doi": "",
+"keywords": [
+"Chebyshev polynomials",
+"Orthogonal system",
+"Fractional differential equation",
+"Fractional-order Chebyshev functions",
+"Operational matrix"
+],
+"type": "Journal Article"
+},
+{
+"year": 2016,
+"title": "On asymptotic stability of Prabhakar fractional differential systems",
+"authors": "Derakhshan, Mohammad Hossein and Ahmadi Darani, Mohammadreza and Ansari, Alireza and Khoshsiar Ghaziani, Reza",
+"journal": "Computational Methods for Differential Equations",
+"doi": "",
+"keywords": [
+"Asymptotic stability",
+"Prabhakar fractional derivative",
+"Generalized Mittag-Leffler function",
+"Riemann-Liouville fractional derivative"
+],
+"type": "Journal Article"
+},
+{
+"year": 2016,
+"title": "Direct meshless local Petrov-Galerkin method for the two-dimensional Klein-Gordon equation",
+"authors": "Mohammadreza Ahmadi Darani",
+"journal": "Engineering Analysis with Boundary Elements",
+"doi": "10.1016/j.enganabound.2016.10.002",
+"keywords": [
+"Meshless Methods",
+"Petrov-Galerkin Method",
+"Klein-Gordon Equation",
+"Numerical Analysis",
+"Differential Equations"
+],
+"type": "Journal Article",
+"citations": 19
+},
+{
+"year": 2014,
+"title": "Fractional type of flatlet oblique multiwavelet for solving fractional differential and integro-differential equations",
+"authors": "Ahmadi Darani, Mohammadreza and Bagheri, Shirin",
+"journal": "Computational Methods for Differential Equations",
+"doi": "",
+"keywords": [
+"Integro-differential equations",
+"Fractional type of flatlet oblique multiwavelets",
+"Biorthogonal flatlet multiwavelet system"
+],
+"type": "Journal Article"
+},
+{
+"year": 2008,
+"title": "Flatlet oblique multiwavelet for solving integro-differential equations",
+"authors": "M.R. Ahmadi Darani and H. Adibi and R.P. Agarwal and R. Saadati",
+"journal": "Dynamics of Continuous, Discrete and Impulsive Systems Series A: Mathematical Analysis",
+"doi": "",
+"keywords": [
+"Integro-differential equations",
+"Flatlet oblique multiwavelets",
+"Biorthogonal multiwavelets",
+"Operational matrix"
+],
+"type": "Journal Article"
+},
+{
+"year": 2010,
+"title": "Numerical solution of integro-differential equations using flatlet oblique multiwavelets",
+"authors": "M. R. A. Darani and H. Adibi and M. Lakestani",
+"journal": "Dynamics of Continuous, Discrete and Impulsive Systems Series A: Mathematical Analysis",
+"doi": "",
+"keywords": [
+"Integro-differential equations",
+"Flatlet oblique multiwavelets",
+"Biorthogonal basis",
+"Numerical solution"
+],
+"type": "Journal Article"
+},
+{
+"year": 2007,
+"title": "The Chebyshev Tau technique for the solution of Laplace's equation",
+"authors": "M.R. Ahmadi and H. Adibi",
+"journal": "Applied Mathematics and Computation",
+"doi": "10.1016/j.amc.2006.05.212",
+"keywords": [
+"Chebyshev Tau method",
+"Laplace equation",
+"Operational matrix",
+"Chebyshev polynomials"
+],
+"type": "Journal Article",
+"citations": 6
+},
+{
+"year": 2012,
+"title": "On Fractional Mittag-Leffler Operators",
+"authors": "Ansari, Alireza and Ahmadi Darani, Mohammadreza and Moradi, Mohammad",
+"journal": "Reports on Mathematical Physics",
+"doi": "10.1016/S0034-4877(13)60017-8",
+"keywords": [
+"Mellin transform",
+"Fractional differential systems",
+"Mittag-Leffler function",
+"Operational calculus",
+"Fractional operators"
+],
+"type": "Journal Article",
+"citations": 12
+},
+{
+"year": 2013,
+"title": "A fractional type of the Chebyshev polynomials for approximation of solution of linear fractional differential equations",
+"authors": "Ahmadi Darani, Mohammadreza and Nasiri, Mitra",
+"journal": "Computational Methods for Differential Equations",
+"doi": "",
+"keywords": [
+"Chebyshev polynomials",
+"Orthogonal system",
+"Fractional differential equation",
+"Fractional-order Chebyshev functions",
+"Operational matrix"
+],
+"type": "Journal Article"
+},
+{
+"year": 2025,
+"title": "Corrigendum to A stable numerical investigation based on geometric greedy points for 2D time-fractional partial integro-differential equations with singular kernels",
+"authors": "Mojtaba Fardi, Banafsheh Raeisi, Mohammadreza Ahmadi Darani",
+"journal": "Engineering Analysis with Boundary Elements",
+"doi": "10.1016/j.enganabound.2025.106248",
+"keywords": [
+"Corrigendum",
+"Geometric greedy points",
+"Time-fractional partial integro-differential equations",
+"Singular kernels"
+],
+"type": "Journal Article",
+"citations": 0
+},
+{
+"year": 2026,
+"title": "RBF partition of unity method for solving nonlinear multi-term fractional parabolic PDEs on irregular domains: A numerical study and error analysis",
+"authors": "Banafsheh Raeisi, Mojtaba Fardi, Mohammadreza Ahmadi Darani",
+"journal": "Journal of Computational Science",
+"doi": "10.1016/j.jocs.2026.102783",
+"keywords": [
+"Radial basis function partition of unity",
+"Multi-term fractional parabolic PDEs",
+"Irregular domains",
+"Variable-step time-stepping",
+"Polyharmonic spline kernels"
+],
+"type": "Journal Article",
+"citations": 0
+},
+{
+"year": 2020,
+"title": "A Petrov-Galerkin RBF method for diffusion equation on the unit sphere",
+"authors": "Mohammadreza Ahmadi Darani and Davoud Mirzaei",
+"journal": "Numerical Methods for Partial Differential Equations",
+"doi": "10.1002/num.22498",
+"keywords": [
+"Spherical basis functions",
+"Radial basis functions",
+"Meshless methods",
+"Petrov-Galerkin method",
+"Diffusion on the sphere"
+],
+"type": "Journal Article",
+"citations": 0
+}
 ]
