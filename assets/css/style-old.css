@@ -1,0 +1,1479 @@
+/* ===========================
+   Reset
+=========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* ===========================
+   Variables
+=========================== */
+
+:root{
+
+    --primary:#12355B;
+    --secondary:#007C91;
+
+    --background:#FFFFFF;
+
+    --surface:#F8FAFC;
+
+    --text:#1F2937;
+
+    --muted:#64748B;
+
+    --white:#FFFFFF;
+
+    --max-width:1200px;
+
+}
+
+/* ===========================
+   Body
+=========================== */
+
+body{
+
+    background:var(--background);
+
+    color:var(--text);
+
+    font-family: "Segoe UI", Arial, sans-serif;
+
+    line-height:1.7;
+
+}
+
+/* =========================
+   Navbar
+========================= */
+
+.navbar {
+
+    width: 100%;
+
+    position: sticky;
+
+    top: 0;
+
+    z-index: 1000;
+
+    background: rgba(248,250,252,0.85);
+
+    backdrop-filter: blur(12px);
+
+    border-bottom: 1px solid rgba(15,23,42,0.08);
+
+}
+
+.navbar .container {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+}
+
+.container {
+
+    max-width: 1200px;
+
+    margin: 0 auto;
+
+    padding: 0 24px;
+
+}
+
+.logo {
+
+    font-size: 28px;
+
+    font-weight: 700;
+
+    color: var(--primary);
+
+    text-decoration: none;
+
+}
+
+
+
+.nav-menu {
+
+    display: flex;
+
+    gap: 32px;
+
+}
+
+
+
+.nav-menu a {
+
+    position: relative;
+
+    text-decoration: none;
+
+    color: var(--text);
+
+    font-size: 16px;
+
+    transition: color .3s ease;
+
+}
+
+
+
+.nav-menu a::after {
+
+    content: "";
+
+    position: absolute;
+
+    left: 0;
+
+    bottom: -8px;
+
+    width: 0;
+
+    height: 2px;
+
+    background: var(--primary);
+
+    transition: width .3s ease;
+
+}
+
+
+
+.nav-menu a:hover {
+
+    color: var(--primary);
+
+}
+
+
+
+.nav-menu a:hover::after {
+
+    width: 100%;
+
+}
+
+
+
+.nav-actions {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 16px;
+
+}
+
+
+
+.nav-actions button {
+
+    border: none;
+
+    background: transparent;
+
+    cursor: pointer;
+
+    font-size: 16px;
+
+}
+
+/* =========================
+   Hero Section
+========================= */
+
+.hero {
+    padding: 96px 0;
+}
+
+
+.hero .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 64px;
+}
+
+
+.hero-content {
+    flex: 1;
+}
+
+
+.hero-content h1 {
+    font-size: 64px;
+    line-height: 1.2;
+    margin-bottom: 24px;
+}
+
+
+.hero-content h2 {
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 16px;
+    color: var(--primary);
+}
+
+
+.hero-content p {
+    font-size: 18px;
+    margin-bottom: 32px;
+}
+
+
+.research-areas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 40px;
+}
+
+
+.research-areas span {
+
+    padding: 8px 16px;
+
+    border-radius: 20px;
+
+    background: #E6F4F1;
+
+    color: var(--secondary);
+
+    font-size: 14px;
+
+}
+
+
+.hero-buttons {
+    display: flex;
+    gap: 16px;
+}
+
+
+.hero-buttons a {
+    padding: 12px 28px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+
+.btn-primary {
+    background: var(--primary);
+    color: var(--white);
+}
+
+
+.btn-secondary {
+    border: 1px solid var(--primary);
+    color: var(--primary);
+}
+
+
+.hero-image {
+    flex: 0 0 360px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.hero-image img {
+    width: 340px;
+    height: 340px;
+
+    object-fit: cover;
+
+    border-radius: 24px;
+
+    border: 4px solid var(--white);
+
+    box-shadow: 0 20px 50px rgba(0,0,0,.12);
+
+    transition: transform .3s ease;
+}
+
+
+.hero-image img:hover {
+    transform: translateY(-6px);
+}
+
+/* =========================
+   End of Hero Section
+============================ */
+
+
+/* =========================
+   Internal Pages
+========================= */
+
+
+.page-header {
+
+    padding: 10px 0;
+
+    background: var(--surface);
+
+    text-align: center;
+
+}
+
+
+
+.page-header h1 {
+
+    font-size: 48px;
+
+    margin-bottom: 16px;
+
+}
+
+
+
+.page-header p {
+
+    font-size: 18px;
+
+    color: var(--muted);
+
+}
+
+
+
+
+.about-content {
+
+    padding: 80px 0;
+
+}
+
+
+
+.about-content p {
+
+    max-width: 800px;
+
+    margin: 0 auto;
+
+    font-size: 18px;
+
+    line-height: 1.9;
+
+}
+
+
+/* =========================
+   Footer
+========================= */
+
+
+.footer {
+
+    padding: 60px 0 20px;
+
+    background: var(--secondary);
+
+    color: var(--white);
+
+}
+
+
+
+.footer-content {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: flex-start;
+
+    gap: 40px;
+
+}
+
+
+
+.footer-brand h3 {
+
+    font-size: 24px;
+
+    margin-bottom: 16px;
+
+}
+
+
+
+.footer-brand p {
+
+    color: #CBD5E1;
+
+}
+
+
+.footer-links {
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    justify-content: flex-end;
+
+    gap: 14px;
+
+}
+
+
+
+.footer-links a {
+
+    color: #CBD5E1;
+
+    text-decoration: none;
+
+}
+
+
+
+.footer-links a:hover {
+
+    color: var(--white);
+
+}
+
+
+.footer-bottom {
+
+    margin-top: 40px;
+
+    padding-top: 20px;
+
+    border-top: 1px solid rgba(255,255,255,0.2);
+
+    text-align: center;
+
+    font-size: 14px;
+
+    color: #CBD5E1;
+
+}
+
+/* =========================
+   Responsive Design
+========================= */
+
+
+@media (max-width: 900px) {
+
+
+    .nav-menu {
+
+        display: none;
+
+    }
+
+
+    .hero .container {
+
+        flex-direction: column;
+
+        text-align: center;
+
+    }
+
+
+    .hero-image {
+
+        flex: none;
+
+        width: 280px;
+
+    }
+
+
+    .hero-buttons {
+
+        justify-content: center;
+
+    }
+
+
+    .footer-content {
+
+        flex-direction: column;
+
+        text-align: center;
+
+    }
+
+
+    .footer-links {
+
+        align-items: center;
+
+    }
+
+
+    .card-grid {
+
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+
+}
+
+
+
+@media (max-width: 600px) {
+
+
+    .hero-content h1 {
+
+        font-size: 42px;
+
+    }
+
+
+
+    .hero-content h2 {
+
+        font-size: 22px;
+
+    }
+
+
+
+    .container {
+
+        padding: 0 16px;
+
+    }
+
+
+}
+
+/* =========================
+   Card System
+========================= */
+
+
+.card-grid {
+
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 32px;
+
+}
+
+
+
+.card {
+
+    background: var(--white);
+
+    padding:32px;
+
+    border-radius:16px;
+
+    border:1px solid rgba(15,23,42,0.08);
+
+    display:flex;
+
+    flex-direction:column;
+
+}
+
+
+
+.card:hover {
+
+    transform: translateY(-6px);
+
+    box-shadow: 0 20px 40px rgba(15,23,42,0.08);
+
+}
+
+
+
+.card h3 {
+
+    margin-bottom: 16px;
+
+    font-size: 22px;
+
+    color: var(--secondary);
+
+}
+
+
+
+.card p {
+
+    color: #475569;
+
+    font-size: 16px;
+
+    line-height: 1.8;
+
+    text-align: justify;
+
+}
+
+/* =========================
+   Publications
+========================= */
+
+
+.page-content {
+
+    padding: 80px 0;
+
+}
+
+
+
+.page-content h2 {
+
+    font-size: 32px;
+
+    margin-bottom: 40px;
+
+    color: var(--primary);
+
+}
+
+
+
+.publication-list {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 32px;
+
+}
+
+
+
+.publication-item {
+
+    display: flex;
+
+    gap: 32px;
+
+    padding: 28px 0;
+
+    border-bottom: 1px solid rgba(15,23,42,0.1);
+
+}
+
+
+
+.publication-year {
+
+    min-width: 80px;
+
+    font-size: 24px;
+
+    font-weight: 700;
+
+    color: var(--secondary);
+
+}
+
+
+
+.publication-details h3 {
+
+    font-size: 22px;
+
+    margin-bottom: 12px;
+
+}
+
+.publication-details p {
+
+    color: var(--muted);
+
+    margin-bottom: 8px;
+
+}
+
+.publication-details a {
+
+    color: var(--primary);
+
+    text-decoration: none;
+
+    font-size: 14px;
+
+}
+
+.publication-details a:hover {
+
+    text-decoration: underline;
+
+}
+
+/* =========================
+   Citation Box
+========================= */
+
+
+.citation {
+
+    margin-top: 24px;
+
+    padding-top: 16px;
+
+    border-top: 1px solid rgba(15,23,42,0.1);
+
+}
+
+
+
+.citation summary {
+
+    cursor: pointer;
+
+    color: var(--primary);
+
+    font-weight: 600;
+
+    font-size: 15px;
+
+}
+
+
+
+.citation summary:hover {
+
+    color: var(--secondary);
+
+}
+
+
+
+.citation pre {
+
+    margin-top: 16px;
+
+    padding: 20px;
+
+    background: var(--surface);
+
+    border-radius: 12px;
+
+    overflow-x: auto;
+
+    font-size: 14px;
+
+    line-height: 1.8;
+
+    color: var(--text);
+
+}
+
+
+/* =========================
+   Citation Profile
+========================= */
+
+
+.citation-profile {
+
+    padding: 60px 0;
+
+    background: var(--surface);
+
+}
+
+
+
+.citation-profile h2 {
+
+    text-align: center;
+
+    margin-bottom: 32px;
+
+}
+
+
+
+.profile-links {
+
+    display: flex;
+
+    justify-content: center;
+
+    flex-wrap: wrap;
+
+    gap: 20px;
+
+}
+
+
+
+.profile-links a {
+
+    padding: 12px 24px;
+
+    border-radius: 8px;
+
+    background: var(--white);
+
+    color: var(--primary);
+
+    text-decoration: none;
+
+    border: 1px solid rgba(15,23,42,0.1);
+
+    transition: all .3s ease;
+
+}
+
+
+
+.profile-links a:hover {
+
+    transform: translateY(-4px);
+
+    box-shadow: 0 10px 25px rgba(15,23,42,0.08);
+
+}
+
+/* =========================
+   Featured Teaching Card
+========================= */
+
+
+.featured-card {
+
+    grid-column: 1 / -1;
+
+    background: var(--surface);
+
+    border: 2px solid rgba(18,53,91,0.15);
+
+}
+
+
+
+.featured-card h3 {
+
+    font-size: 28px;
+
+    color: var(--primary);
+
+}
+
+
+
+.featured-card p {
+
+    font-size: 18px;
+
+    max-width: 900px;
+
+}
+
+
+/* =========================
+   Course Information
+========================= */
+
+.course-info {
+
+    padding: 30px 0;
+
+    background: var(--surface);
+
+}
+
+.info-grid {
+
+    display: grid;
+
+    grid-template-columns:  repeat(3, 1fr);
+
+    gap: 24px;
+
+}
+
+.info-item {
+
+    background: var(--white);
+
+    border: 1px solid rgba(15,23,42,.08);
+
+    border-radius: 14px;
+
+    padding: 20px;
+
+    text-align: center;
+
+}
+
+.info-title {
+
+    display: block;
+
+    font-size: 13px;
+
+    color: var(--muted);
+
+    text-transform: uppercase;
+
+    letter-spacing: .8px;
+
+    margin-bottom: 8px;
+
+}
+
+.info-value {
+
+    display: block;
+
+    font-size: 18px;
+
+    font-weight: 600;
+
+    color: var(--primary);
+
+}
+
+/* =========================
+   Quick Links
+========================= */
+
+.quick-links {
+
+    padding: 10px 0 10px;
+
+    background: var(--background);
+
+}
+
+.quick-links .container {
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    justify-content: center;
+
+    gap: 16px;
+
+}
+
+.quick-links a {
+
+    text-decoration: none;
+
+    background: var(--white);
+
+    color: var(--primary);
+
+    border: 1px solid rgba(15,23,42,.08);
+
+    border-radius: 12px;
+
+    padding: 14px 26px;
+
+    transition: .3s;
+
+    font-weight: 600;
+
+    box-shadow: 0 5px 15px rgba(15,23,42,.05);
+
+}
+
+.quick-links a:hover {
+
+    background: var(--primary);
+
+    color: var(--white);
+
+    transform: translateY(-3px);
+
+}
+
+ /*Reduce spacing before course cards */
+
+.course-info + .quick-links + .page-content {
+
+    padding-top: 10px;
+
+}
+.page-content {
+    padding-top: 20px !important;
+}
+
+.quick-links {
+    padding-bottom: 20px;
+    /*padding-bottom: 0 !important;
+    margin-bottom: 0 !important;*/
+}
+
+/* =========================
+   Download List
+========================= */
+
+.download-list {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 16px;
+
+    margin-top: 24px;
+
+}
+
+
+.download-item {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: 18px 22px;
+
+    background: var(--surface);
+
+    border-radius: 12px;
+
+    border: 1px solid rgba(15,23,42,0.08);
+
+    text-decoration: none;
+
+    color: var(--text);
+
+    transition: .3s ease;
+
+}
+
+
+.download-item:hover {
+
+    transform: translateY(-3px);
+
+    box-shadow: 0 10px 25px rgba(15,23,42,0.08);
+
+}
+
+
+.download-item strong {
+
+    display: block;
+
+    color: var(--primary);
+
+    margin-bottom: 4px;
+
+}
+
+
+.download-item span {
+
+    color: var(--muted);
+
+    font-size: 14px;
+
+}
+
+/* =========================
+   Lecture Notes Dropdown
+========================= */
+
+
+.lecture-dropdown {
+
+    margin-top:20px;
+
+}
+
+
+.lecture-dropdown summary {
+
+    cursor:pointer;
+
+    padding:14px 20px;
+
+    background:var(--surface);
+
+    border:1px solid rgba(15,23,42,.1);
+
+    border-radius:10px;
+
+    color:var(--primary);
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+
+.lecture-dropdown summary:hover {
+
+    background:#E6F4F1;
+
+}
+
+
+.lecture-dropdown[open] summary {
+
+    border-radius:10px 10px 0 0;
+
+}
+
+
+.lecture-dropdown .download-list {
+
+    margin-top:12px;
+
+}
+
+/* =========================
+   Card Links
+========================= */
+
+.card-link {
+
+    display:inline-block;
+
+    margin-top:auto;
+
+    padding:10px 22px;
+
+    border-radius:8px;
+
+    background:var(--primary);
+
+    color:var(--white);
+
+    text-decoration:none;
+
+    font-weight:600;
+
+}
+
+
+.card-link:hover {
+
+    background: var(--secondary);
+
+    transform: translateY(-3px);
+
+}
+
+/* =========================
+   Publication Keywords
+========================= */
+
+.publication-keywords {
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    gap: 8px;
+
+    margin: 16px 0;
+
+}
+
+
+.publication-keywords span {
+
+    background: #E6F4F1;
+
+    color: var(--secondary);
+
+    padding: 6px 14px;
+
+    border-radius: 20px;
+
+    font-size: 13px;
+
+    font-weight: 500;
+
+}
+
+
+/* =========================
+   Publication Filter
+========================= */
+
+.publication-filter {
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    gap: 12px;
+
+    margin-bottom: 40px;
+
+}
+
+
+.filter-btn {
+
+    padding: 10px 22px;
+
+    border-radius: 20px;
+
+    border: 1px solid rgba(15,23,42,0.1);
+
+    background: var(--white);
+
+    color: var(--primary);
+
+    cursor: pointer;
+
+    font-size: 14px;
+
+    font-weight: 600;
+
+    transition: all .3s ease;
+
+}
+
+
+.filter-btn:hover {
+
+    background: var(--surface);
+
+}
+
+
+.filter-btn.active {
+
+    background: var(--primary);
+
+    color: var(--white);
+
+}
+
+/* =========================
+   Citation Statistics
+========================= */
+
+.citation-stats {
+
+    display: grid;
+
+    grid-template-columns: repeat(3,1fr);
+
+    gap: 24px;
+
+    margin: 40px 0;
+
+}
+
+
+.stat-card {
+
+    background: var(--white);
+
+    border: 1px solid rgba(15,23,42,.08);
+
+    border-radius: 16px;
+
+    padding: 24px;
+
+    text-align: center;
+
+}
+
+
+.stat-card h3 {
+
+    font-size: 16px;
+
+    color: var(--muted);
+
+    margin-bottom: 12px;
+
+}
+
+
+.stat-card p {
+
+    font-size: 36px;
+
+    font-weight: 700;
+
+    color: var(--primary);
+
+}
+
+
+@media(max-width:600px){
+
+    .citation-stats{
+
+        grid-template-columns:1fr;
+
+    }
+
+}
+
+/* =========================
+   Citation Statistics
+========================= */
+
+.citation-stats {
+
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 24px;
+
+    margin: 40px 0;
+
+}
+
+
+.stat-card {
+
+    background: var(--white);
+
+    border: 1px solid rgba(15,23,42,0.08);
+
+    border-radius: 16px;
+
+    padding: 24px;
+
+    text-align: center;
+
+}
+
+
+.stat-card h3 {
+
+    font-size: 16px;
+
+    color: var(--muted);
+
+    margin-bottom: 12px;
+
+}
+
+
+.stat-card p {
+
+    font-size: 36px;
+
+    font-weight: 700;
+
+    color: var(--primary);
+
+}
+
+
+
+@media (max-width: 600px) {
+
+    .citation-stats {
+
+        grid-template-columns: 1fr;
+
+    }
+
+}
+
+/* =========================
+   Research Keywords
+========================= */
+
+.research-keywords {
+
+    margin-top: 60px;
+
+}
+
+
+.research-keywords h2 {
+
+    margin-bottom: 24px;
+
+}
+
+
+.keyword-list {
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    gap: 12px;
+
+}
+
+
+.keyword-list span {
+
+    background: #E6F4F1;
+
+    color: var(--secondary);
+
+    padding: 8px 18px;
+
+    border-radius: 20px;
+
+    font-size: 14px;
+
+    font-weight: 600;
+
+}
+
+/* =========================
+   About Sections
+========================= */
+
+.about-sections {
+
+    display: grid;
+
+    grid-template-columns: repeat(2,1fr);
+
+    gap: 24px;
+
+    margin-top: 40px;
+
+}
+
+
+@media(max-width:700px){
+
+    .about-sections {
+
+        grid-template-columns:1fr;
+
+    }
+
+}
