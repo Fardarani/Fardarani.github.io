@@ -668,11 +668,18 @@ body{
 
 }
 
-.citation-count{
-    margin-left:16px;
-    color:var(--muted);
-    font-size:14px;
-    font-weight:600;
+.publication-citation-count {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin: 12px 0;
+    font-size: 14px;
+    color: var(--muted);
+}
+
+.publication-citation-count span {
+    font-weight: 700;
+    color: var(--primary);
 }
 
 .publication-details a:hover{
@@ -1501,4 +1508,79 @@ body{
 
 }
 
+/* =========================
+   Dark Mode
+========================= */
 
+body.dark-mode {
+    --background: #0F172A;
+    --text: #E2E8F0;
+    --white: #FFFFFF;
+    --secondary: #F8FAFC;
+}
+
+body.dark-mode .site-header {
+    background: #0F172A;
+}
+
+body.dark-mode .card,
+body.dark-mode .publication-item {
+    background: #1E293B;
+    color: #E2E8F0;
+}
+
+body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode h3,
+body.dark-mode p {
+    color: #E2E8F0;
+}
+
+body.dark-mode .nav-menu a {
+    color: #E2E8F0;
+}
+
+body.dark-mode .nav-menu a:hover {
+    color: var(--primary);
+}
+
+body.dark-mode .hero {
+    background: #0F172A;
+}
+
+body.dark-mode .footer {
+    background: #020617;
+}
+
+/* Dark Mode - Research Areas */
+
+body.dark-mode .research-areas span {
+    color: #0F172A;
+}
+
+body.dark-mode .research-areas span:hover {
+    color: #020617;
+}
+
+/* =========================================
+   Publications: Keep publication content LTR
+   on Persian pages
+========================================= */
+
+.publications-ltr {
+    direction: ltr;
+    text-align: left;
+}
+
+.publications-ltr .publication-list,
+.publications-ltr .publication-item,
+.publications-ltr .publication-details {
+    direction: ltr;
+    text-align: left;
+}
+
+.publications-ltr .citation-box,
+.publications-ltr .citation-box pre {
+    direction: ltr;
+    text-align: left;
+}

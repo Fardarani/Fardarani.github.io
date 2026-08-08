@@ -36,8 +36,8 @@ document.addEventListener("DOMContentLoaded", () => {
                             View DOI
                         </a>
 
-                        <span class="citation-count">
-                            Citations: ${pub.citations ?? 0}
+                        <span class="publication-citation-count">
+                            Citations: <span>${pub.citations ?? 0}</span>
                         </span>
 
                         <details class="citation">

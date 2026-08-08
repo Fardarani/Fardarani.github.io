@@ -30,6 +30,10 @@ window.navbar = `
                 Teaching
             </a>
 
+           <a href="/pages/courses.html">
+                Courses
+            </a>
+
             <a href="/pages/contact.html">
                 Contact
             </a>
@@ -38,8 +42,10 @@ window.navbar = `
 
         <div class="nav-actions">
 
-            <button class="language-switch">
-                EN
+            <button
+                class="language-switch"
+                onclick="window.location.href='/fa/index.html'">
+                FA
             </button>
 
 

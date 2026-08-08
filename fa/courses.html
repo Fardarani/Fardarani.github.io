@@ -1,0 +1,224 @@
+```html
+<meta charset="UTF-8">
+
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0">
+
+<title>
+    دروس | محمدرضا احمدی دارانی
+</title>
+
+<meta name="description"
+      content="دروس ارائه‌شده توسط محمدرضا احمدی دارانی">
+
+<meta name="author"
+      content="Mohammadreza Ahmadi Darani">
+
+<link rel="stylesheet"
+      href="../assets/css/style.css">
+```
+
+```html
+<!-- =========================
+     Persian Navbar
+========================== -->
+
+<div id="navbar"></div>
+
+
+<!-- =========================
+     Page Header
+========================== -->
+
+<section class="page-header">
+
+    <div class="container">
+
+        <h1>
+            دروس
+        </h1>
+
+        <p>
+            دروس دانشگاهی، جزوات و منابع آموزشی
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     Courses
+========================== -->
+
+<main>
+
+    <section class="courses-content">
+
+        <div class="container">
+
+            <div class="card-grid">
+
+
+                <!-- Numerical Analysis -->
+
+                <div class="card">
+
+                    <h3>
+                        آنالیز عددی
+                    </h3>
+
+                    <p>
+                        درس دانشگاهی در مقطع کارشناسی با تمرکز بر
+                        روش‌های عددی برای حل مسائل علمی و مهندسی.
+                    </p>
+
+                    <p>
+                        <strong>سرفصل‌ها:</strong><br>
+                        درون‌یابی،
+                        برازش منحنی،
+                        مشتق‌گیری عددی،
+                        انتگرال‌گیری عددی،
+                        حل‌گرهای معادلات دیفرانسیل معمولی
+                    </p>
+
+                    <a href="courses/numerical-analysis.html"
+                       class="card-link">
+                        مشاهده درس →
+                    </a>
+
+                </div>
+
+
+                <!-- Differential Equations -->
+
+                <div class="card">
+
+                    <h3>
+                        معادلات دیفرانسیل
+                    </h3>
+
+                    <p>
+                        مطالعه معادلات دیفرانسیل معمولی و جزئی
+                        با رویکردهای تحلیلی و عددی.
+                    </p>
+
+                    <p>
+                        <strong>سرفصل‌ها:</strong><br>
+                        معادلات دیفرانسیل مرتبه اول،
+                        معادلات دیفرانسیل مرتبه بالاتر،
+                        دستگاه‌های معادلات دیفرانسیل،
+                        روش‌های عددی
+                    </p>
+
+                    <a href="courses/differential-equations.html"
+                       class="card-link">
+                        مشاهده درس →
+                    </a>
+
+                </div>
+
+
+                <!-- Numerical Linear Algebra -->
+
+                <div class="card">
+
+                    <h3>
+                        جبر خطی عددی
+                    </h3>
+
+                    <p>
+                        روش‌های محاسباتی برای حل دستگاه‌های معادلات
+                        خطی، مسائل مقدار ویژه و محاسبات ماتریسی.
+                    </p>
+
+                    <p>
+                        <strong>سرفصل‌ها:</strong><br>
+                        دستگاه‌های معادلات خطی،
+                        مقادیر ویژه،
+                        روش‌های تکراری،
+                        تجزیه مقدار منفرد
+                    </p>
+
+                    <a href="courses/numerical-linear-algebra.html"
+                       class="card-link">
+                        مشاهده درس →
+                    </a>
+
+                </div>
+
+
+                <!-- Engineering Mathematics -->
+
+                <div class="card">
+
+                    <h3>
+                        ریاضیات مهندسی
+                    </h3>
+
+                    <p>
+                        روش‌های ریاضی مورد استفاده در تحلیل،
+                        مدل‌سازی و کاربردهای محاسباتی مهندسی.
+                    </p>
+
+                    <p>
+                        <strong>سرفصل‌ها:</strong><br>
+                        سری فوریه،
+                        تبدیل فوریه،
+                        معادلات دیفرانسیل جزئی،
+                        توابع ویژه
+                    </p>
+
+                    <a href="courses/engineering-mathematics.html"
+                       class="card-link">
+                        مشاهده درس →
+                    </a>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<!-- =========================
+     Footer
+========================== -->
+
+<footer id="footer" dir="ltr"></footer>
+
+
+<!-- =========================
+     JavaScript
+========================== -->
+
+<script src="../assets/js/components/navbar-fa.js"></script>
+
+<script src="../assets/js/components/footer.js"></script>
+
+<script>
+
+    document.addEventListener("DOMContentLoaded", function () {
+
+        const footerContainer =
+            document.querySelector("#footer");
+
+        if (footerContainer && window.footer) {
+
+            footerContainer.innerHTML =
+                window.footer;
+
+        }
+
+    });
+
+</script>
+
+
+<script src="../assets/js/fa-main.js"></script>
+```
