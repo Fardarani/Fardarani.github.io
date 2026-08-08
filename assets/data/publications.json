@@ -12,7 +12,8 @@
       "Meshless Methods",
       "Numerical Analysis"
     ],
-    "type": "Journal Article"
+    "type": "Journal Article",
+    "citations": 21
   },
   {
     "year": 2018,
@@ -39,7 +40,8 @@
       "Direct partition of unity",
       "Error estimate"
     ],
-    "type": "Journal Article"
+    "type": "Journal Article",
+    "citations": 4
   },
   {
     "year": 2025,
@@ -53,7 +55,8 @@
       "Singular kernels",
       "RBF-HFD"
     ],
-    "type": "Journal Article"
+    "type": "Journal Article",
+    "citations": 3
   },
   {
     "year": 2024,
@@ -67,7 +70,8 @@
       "Convergence analysis",
       "Error bound"
     ],
-    "type": "Journal Article"
+    "type": "Journal Article",
+    "citations": 2
   },
   {
     "year": 2020,
@@ -82,7 +86,8 @@
       "Stability estimate",
       "Convergence estimate"
     ],
-    "type": "Journal Article"
+    "type": "Journal Article",
+    "citations": 0
   },
   {
     "year": 2026,
@@ -97,7 +102,8 @@
       "Multi-term time-fractional",
       "Singular kernel"
     ],
-    "type": "Journal Article"
+    "type": "Journal Article",
+    "citations": 2
   },
   {
     "year": 2012,
@@ -113,7 +119,8 @@
       "Stieltjes transform",
       "Widder potential transform"
     ],
-    "type": "Journal Article"
+    "type": "Journal Article",
+    "citations": 1
   },
   {
     "year": 2017,
@@ -128,7 +135,8 @@
       "Financial mathematics",
       "Variational iteration method"
     ],
-    "type": "Journal Article"
+    "type": "Journal Article",
+    "citations": 13
   },
   {
     "year": 2017,
@@ -172,7 +180,8 @@
       "Numerical Analysis",
       "Differential Equations"
     ],
-    "type": "Journal Article"
+    "type": "Journal Article",
+    "citations": 19
   },
   {
     "year": 2014,
@@ -227,7 +236,8 @@
       "Operational matrix",
       "Chebyshev polynomials"
     ],
-    "type": "Journal Article"
+    "type": "Journal Article",
+    "citations": 6
   },
   {
     "year": 2012,
@@ -242,7 +252,8 @@
       "Operational calculus",
       "Fractional operators"
     ],
-    "type": "Journal Article"
+    "type": "Journal Article",
+    "citations": 12
   },
   {
     "year": 2013,
@@ -271,7 +282,8 @@
       "Time-fractional partial integro-differential equations",
       "Singular kernels"
     ],
-    "type": "Journal Article"
+    "type": "Journal Article",
+    "citations": 0
   },
   {
     "year": 2026,
@@ -286,7 +298,8 @@
       "Variable-step time-stepping",
       "Polyharmonic spline kernels"
     ],
-    "type": "Journal Article"
+    "type": "Journal Article",
+    "citations": 0
   },
   {
     "year": 2020,
@@ -301,6 +314,7 @@
       "Petrov-Galerkin method",
       "Diffusion on the sphere"
     ],
-    "type": "Journal Article"
+    "type": "Journal Article",
+    "citations": 0
   }
 ]
