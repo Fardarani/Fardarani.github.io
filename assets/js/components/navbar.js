@@ -11,10 +11,6 @@ window.navbar = `
     </a>
 
 
-    <!-- =========================
-         Mobile Menu Button
-    ========================== -->
-
     <button class="mobile-menu-toggle"
             aria-label="Open menu"
             aria-expanded="false">
@@ -23,10 +19,6 @@ window.navbar = `
 
     </button>
 
-
-    <!-- =========================
-         Navigation
-    ========================== -->
 
     <nav class="nav-menu">
 
@@ -66,8 +58,6 @@ window.navbar = `
         </a>
 
 
-        <!-- Mobile language switch -->
-
         <a href="/fa/index.html"
            class="mobile-language">
 
@@ -78,10 +68,6 @@ window.navbar = `
 
     </nav>
 
-
-    <!-- =========================
-         Desktop Actions
-    ========================== -->
 
     <div class="nav-actions">
 
@@ -108,82 +94,3 @@ window.navbar = `
 </div>
 
 `;
-
-
-// =========================
-// Mobile Menu
-// =========================
-
-document.addEventListener("DOMContentLoaded", () => {
-
-
-    const navbar =
-        document.querySelector("#navbar");
-
-
-    if (!navbar) {
-        return;
-    }
-
-
-    const menuButton =
-        navbar.querySelector(".mobile-menu-toggle");
-
-
-    const navMenu =
-        navbar.querySelector(".nav-menu");
-
-
-    if (!menuButton || !navMenu) {
-        return;
-    }
-
-
-    menuButton.addEventListener("click", () => {
-
-
-        navMenu.classList.toggle(
-            "mobile-menu-open"
-        );
-
-
-        const isOpen =
-            navMenu.classList.contains(
-                "mobile-menu-open"
-            );
-
-
-        menuButton.setAttribute(
-            "aria-expanded",
-            isOpen
-        );
-
-
-    });
-
-
-    // Close menu after selecting a link
-
-    navMenu.querySelectorAll("a").forEach(link => {
-
-
-        link.addEventListener("click", () => {
-
-
-            navMenu.classList.remove(
-                "mobile-menu-open"
-            );
-
-
-            menuButton.setAttribute(
-                "aria-expanded",
-                "false"
-            );
-
-
-        });
-
-
-    });
-
-});
