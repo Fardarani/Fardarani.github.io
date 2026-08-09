@@ -1371,14 +1371,19 @@ body{
 
 @media(max-width:900px){
 
-
     .nav-menu{
 
-        display:none;
+        display:flex;
+
+        gap:15px;
+
+        flex-wrap:wrap;
+
+        justify-content:center;
 
     }
 
-
+    
     .hero .container{
 
         flex-direction:column;
