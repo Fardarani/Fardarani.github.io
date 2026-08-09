@@ -9,26 +9,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
     // =========================
-    // Detect Page Level
-    // =========================
-
-    const isCoursePage =
-        window.location.pathname.includes("/fa/pages/courses/");
-
-
-    // =========================
-    // Set Relative Paths
-    // =========================
-
-    const basePath =
-        isCoursePage ? "../../" : "";
-
-
-    const englishPath =
-        isCoursePage ? "../../../" : "../";
-
-
-    // =========================
     // Persian Navbar
     // =========================
 
@@ -38,7 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
             <div class="container">
 
-                <a href="${basePath}index.html"
+                <a href="/fa/index.html"
                    class="logo">
 
                     محمدرضا احمدی دارانی
@@ -48,47 +28,47 @@ document.addEventListener("DOMContentLoaded", () => {
 
                 <div class="nav-menu">
 
-                    <a href="${basePath}index.html">
+                    <a href="/fa/index.html">
                         خانه
                     </a>
 
 
-                    <a href="${basePath}about.html">
+                    <a href="/fa/about.html">
                         درباره من
                     </a>
 
 
-                    <a href="${basePath}research.html">
+                    <a href="/fa/research.html">
                         پژوهش
                     </a>
 
 
-                    <a href="${basePath}publications.html">
+                    <a href="/fa/publications.html">
                         مقالات
                     </a>
 
 
-                    <a href="${basePath}teaching.html">
+                    <a href="/fa/teaching.html">
                         تدریس
                     </a>
 
 
-                    <a href="${basePath}courses.html">
+                    <a href="/fa/courses.html">
                         دروس
                     </a>
 
 
-                    <a href="${basePath}videos.html">
+                    <a href="/fa/videos.html">
                         ویدئوها
                     </a>
 
 
-                    <a href="${basePath}software.html">
+                    <a href="/fa/software.html">
                         نرم‌افزار و کدها
                     </a>
 
 
-                    <a href="${basePath}contact.html">
+                    <a href="/fa/contact.html">
                         تماس
                     </a>
 
@@ -97,7 +77,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
                 <div class="nav-actions">
 
-                    <a href="${englishPath}index.html">
+                    <a href="/index.html">
                         EN
                     </a>
 
