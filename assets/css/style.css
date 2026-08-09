@@ -1373,17 +1373,148 @@ body{
 
     .nav-menu{
 
+        display:none;
+
+        position:absolute;
+
+        top:100%;
+
+        right:0;
+
+        left:0;
+
+        flex-direction:column;
+
+        gap:0;
+
+        background:var(--white);
+
+        padding:10px 0;
+
+        box-shadow:0 8px 20px rgba(0,0,0,.08);
+
+        z-index:1000;
+
+    }
+
+
+    .nav-menu.mobile-menu-open{
+
         display:flex;
 
-        gap:15px;
+    }
 
-        flex-wrap:wrap;
+
+    .nav-menu a{
+
+        width:100%;
+
+        padding:12px 20px;
+
+        text-align:right;
+
+        box-sizing:border-box;
+
+    }
+
+
+    .nav-menu a::after{
+
+        display:none;
+
+    }
+
+
+    .nav-actions{
+
+        display:none;
+
+    }
+
+
+    .mobile-menu-toggle{
+
+        display:block;
+
+        background:none;
+
+        border:none;
+
+        font-size:26px;
+
+        cursor:pointer;
+
+        color:var(--text);
+
+        padding:5px 10px;
+
+    }
+
+
+    .navbar .container{
+
+        position:relative;
+
+    }
+
+
+    .hero .container{
+
+        flex-direction:column;
+
+        text-align:center;
+
+    }
+
+
+    .hero-image{
+
+        flex:none;
+
+        width:280px;
+
+    }
+
+
+    .hero-buttons{
 
         justify-content:center;
 
     }
 
-    
+
+    .footer-content{
+
+        flex-direction:column;
+
+        text-align:center;
+
+    }
+
+
+    .footer-links{
+
+        justify-content:center;
+
+    }
+
+
+    .card-grid{
+
+        grid-template-columns:repeat(2,1fr);
+
+    }
+
+
+    .info-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+}
+
+
     .hero .container{
 
         flex-direction:column;

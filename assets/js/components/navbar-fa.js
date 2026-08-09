@@ -18,6 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
             <div class="container">
 
+
                 <a href="/fa/index.html"
                    class="logo">
 
@@ -26,7 +27,25 @@ document.addEventListener("DOMContentLoaded", () => {
                 </a>
 
 
+                <!-- =========================
+                     Mobile Menu Button
+                ========================== -->
+
+                <button class="mobile-menu-toggle"
+                        aria-label="باز کردن منو"
+                        aria-expanded="false">
+
+                    ☰
+
+                </button>
+
+
+                <!-- =========================
+                     Navigation
+                ========================== -->
+
                 <div class="nav-menu">
+
 
                     <a href="/fa/index.html">
                         خانه
@@ -72,8 +91,21 @@ document.addEventListener("DOMContentLoaded", () => {
                         تماس
                     </a>
 
+
+                    <a href="/index.html"
+                       class="mobile-language">
+
+                        EN
+
+                    </a>
+
+
                 </div>
 
+
+                <!-- =========================
+                     Desktop Language
+                ========================== -->
 
                 <div class="nav-actions">
 
@@ -83,10 +115,63 @@ document.addEventListener("DOMContentLoaded", () => {
 
                 </div>
 
+
             </div>
 
         </nav>
 
     `;
+
+
+    // =========================
+    // Mobile Menu
+    // =========================
+
+    const menuButton =
+        navbarContainer.querySelector(".mobile-menu-toggle");
+
+    const navMenu =
+        navbarContainer.querySelector(".nav-menu");
+
+
+    if (menuButton && navMenu) {
+
+        menuButton.addEventListener("click", () => {
+
+            navMenu.classList.toggle("mobile-menu-open");
+
+
+            const isOpen =
+                navMenu.classList.contains("mobile-menu-open");
+
+
+            menuButton.setAttribute(
+                "aria-expanded",
+                isOpen
+            );
+
+        });
+
+
+        // Close menu after selecting a link
+
+        navMenu.querySelectorAll("a").forEach(link => {
+
+            link.addEventListener("click", () => {
+
+                navMenu.classList.remove(
+                    "mobile-menu-open"
+                );
+
+                menuButton.setAttribute(
+                    "aria-expanded",
+                    "false"
+                );
+
+            });
+
+        });
+
+    }
 
 });
