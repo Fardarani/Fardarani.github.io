@@ -1800,7 +1800,7 @@ html[lang="fa"] body{
 
     .nav-actions{
 
-        display:none;
+        gap:10px;
 
     }
 
