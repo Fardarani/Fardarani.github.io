@@ -1798,26 +1798,60 @@ html[lang="fa"] body{
     }
 
 
-    .nav-actions{
+    .nav-actions {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        flex-shrink: 0;
+        position: relative;
+        z-index: 1100;
+    }
 
-        gap:10px;
+    .nav-actions button {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-width: 38px;
+        min-height: 38px;
+        padding: 6px 8px;
+        border-radius: 8px;
+        color: var(--text);
+        background: transparent;
+        border: 1px solid transparent;
+    }
 
+    .nav-actions button:hover {
+        background: var(--background);
+        color: var(--primary);
     }
 
 
-    .mobile-menu-toggle{
-
-        display:block;
-
+    .mobile-menu-toggle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+    z-index: 1100;
+    width: 42px;
+    height: 42px;
+    padding: 5px;
+    color: var(--text);
     }
 
 
-    .navbar .container{
-
-        position:relative;
-
+    
+    .navbar .container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 10px;
     }
 
+    .logo {
+    flex-shrink: 1;
+    min-width: 0;
+    }
 
     .hero .container{
 
