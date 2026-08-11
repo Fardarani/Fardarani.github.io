@@ -5,7 +5,28 @@ document.addEventListener("DOMContentLoaded", () => {
         return;
     }
 
-    fetch("../assets/data/publications.json")
+    const isPersian =
+        document.documentElement.lang === "fa" ||
+        document.documentElement.dir === "rtl" ||
+        window.location.pathname.startsWith("/fa/");
+
+    const labels = isPersian
+        ? {
+            viewDoi: "مشاهده DOI",
+            citations: "استنادها:",
+            citeThis: "استناد به این مقاله",
+            copyBibtex: "کپی BibTeX",
+            copied: "کپی شد!"
+        }
+        : {
+            viewDoi: "View DOI",
+            citations: "Citations:",
+            citeThis: "Cite this paper",
+            copyBibtex: "Copy BibTeX",
+            copied: "Copied!"
+        };
+
+    fetch("/assets/data/publications.json")
         .then(response => response.json())
         .then(publications => {
             const sortedPublications = publications
@@ -32,18 +53,20 @@ document.addEventListener("DOMContentLoaded", () => {
                             ${pub.keywords.map(keyword => `<span>${keyword}</span>`).join("")}
                         </div>
 
-                        <a href="${pub.doi}" target="_blank" rel="noopener noreferrer">
-                            View DOI
-                        </a>
+                        ${pub.doi
+                            ? `<a href="https://doi.org/${pub.doi}" target="_blank" rel="noopener noreferrer">
+                                ${labels.viewDoi}
+                               </a>`
+                            : ""}
 
                         <span class="publication-citation-count">
-                            Citations: <span>${pub.citations ?? 0}</span>
+                            ${labels.citations} <span>${pub.citations ?? 0}</span>
                         </span>
 
                         <details class="citation">
-                            <summary>Cite this paper</summary>
+                            <summary>${labels.citeThis}</summary>
                             <div class="citation-box">
-                                <button class="copy-bibtex">Copy BibTeX</button>
+                                <button class="copy-bibtex">${labels.copyBibtex}</button>
                                 <pre>@article{Ahmadi${pub.year},
 author = {${pub.authors}},
 title = {${pub.title}},
@@ -59,7 +82,7 @@ year = {${pub.year}}
             });
 
             const filterButtons = document.querySelectorAll(".filter-btn");
-            const publicationItems = document.querySelectorAll(".publication-item");
+            const publicationItems = publicationContainer.querySelectorAll(".publication-item");
 
             filterButtons.forEach(button => {
                 button.addEventListener("click", function () {
@@ -78,4 +101,37 @@ year = {${pub.year}}
         .catch(error => {
             console.error("Error loading publications:", error);
         });
+
+    // =========================
+    // Copy BibTeX
+    // (moved here from main.js so it works on both languages,
+    //  since publications.js is shared between fa/ and en)
+    // =========================
+
+    publicationContainer.addEventListener("click", function (event) {
+
+        if (!event.target.classList.contains("copy-bibtex")) {
+            return;
+        }
+
+        const button = event.target;
+        const originalText = button.innerText;
+        const bibtex = button.nextElementSibling.innerText;
+
+        navigator.clipboard.writeText(bibtex)
+            .then(() => {
+
+                button.innerText = labels.copied;
+
+                setTimeout(() => {
+                    button.innerText = originalText;
+                }, 2000);
+
+            })
+            .catch(error => {
+                console.error("Copy failed:", error);
+            });
+
+    });
+
 });

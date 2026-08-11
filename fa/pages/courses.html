@@ -1,3 +1,7 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
 
 <meta charset="UTF-8">
 
@@ -15,8 +19,11 @@
       content="Mohammadreza Ahmadi Darani">
 
 <link rel="stylesheet"
-      href="../assets/css/style.css">
+      href="/assets/css/style.css">
 
+</head>
+
+<body>
 
 <!-- =========================
      Persian Navbar
@@ -52,7 +59,7 @@
 
 <main>
 
-    <section class="courses-content">
+    <section class="page-content">
 
         <div class="container">
 
@@ -81,7 +88,7 @@
                         حل‌گرهای معادلات دیفرانسیل معمولی
                     </p>
 
-                    <a href="pages/courses/numerical-analysis.html"
+                    <a href="/fa/pages/courses/numerical-analysis.html"
                        class="card-link">
                         مشاهده درس →
                     </a>
@@ -110,7 +117,7 @@
                         روش‌های عددی
                     </p>
 
-                    <a href="pages/courses/differential-equations.html"
+                    <a href="/fa/pages/courses/differential-equations.html"
                        class="card-link">
                         مشاهده درس →
                     </a>
@@ -139,7 +146,7 @@
                         تجزیه مقدار منفرد
                     </p>
 
-                    <a href="pages/courses/numerical-linear-algebra.html"
+                    <a href="/fa/pages/courses/numerical-linear-algebra.html"
                        class="card-link">
                         مشاهده درس →
                     </a>
@@ -168,7 +175,7 @@
                         توابع ویژه
                     </p>
 
-                    <a href="pages/courses/engineering-mathematics.html"
+                    <a href="/fa/pages/courses/engineering-mathematics.html"
                        class="card-link">
                         مشاهده درس →
                     </a>
@@ -189,35 +196,19 @@
      Footer
 ========================== -->
 
-<footer id="footer" dir="ltr"></footer>
+<div id="footer"></div>
 
 
 <!-- =========================
      JavaScript
 ========================== -->
 
-<script src="../assets/js/components/navbar-fa.js"></script>
+<script src="/assets/js/components/navbar-fa.js"></script>
 
-<script src="../assets/js/components/footer.js"></script>
+<script src="/assets/js/components/footer.js"></script>
 
-<script>
+<script src="/assets/js/fa-main.js"></script>
 
-    document.addEventListener("DOMContentLoaded", function () {
+</body>
 
-        const footerContainer =
-            document.querySelector("#footer");
-
-        if (footerContainer && window.footer) {
-
-            footerContainer.innerHTML =
-                window.footer;
-
-        }
-
-    });
-
-</script>
-
-
-<script src="../assets/js/fa-main.js"></script>
-
+</html>

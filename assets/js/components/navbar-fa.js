@@ -7,171 +7,87 @@ document.addEventListener("DOMContentLoaded", () => {
         return;
     }
 
-
-    // =========================
-    // Persian Navbar
-    // =========================
-
     navbarContainer.innerHTML = `
-
         <nav class="navbar" dir="rtl">
 
             <div class="container">
 
-
-                <a href="/fa/index.html"
-                   class="logo">
-
+                <a href="/fa/index.html" class="logo">
                     محمدرضا احمدی دارانی
-
                 </a>
 
-
-                <!-- =========================
-                     Mobile Menu Button
-                ========================== -->
-
-                <button class="mobile-menu-toggle"
-                        aria-label="باز کردن منو"
-                        aria-expanded="false">
-
-                    ☰
-
-                </button>
-
-
-                <!-- =========================
-                     Navigation
-                ========================== -->
-
                 <div class="nav-menu">
-
 
                     <a href="/fa/index.html">
                         خانه
                     </a>
 
-
-                    <a href="/fa/about.html">
+                    <a href="/fa/pages/about.html">
                         درباره من
                     </a>
 
+                    <div class="nav-item has-dropdown">
+                        <a href="/fa/pages/research.html">
+                            پژوهش
+                        </a>
+                        <button class="submenu-toggle" aria-label="باز و بسته کردن زیرمنوی پژوهش" aria-expanded="false">
+                            ▾
+                        </button>
+                        <ul class="submenu">
+                            <li><a href="/fa/pages/research.html#areas">حوزه‌های پژوهشی</a></li>
+                            <li><a href="/fa/pages/research.html#projects">پروژه‌ها</a></li>
+                            <li><a href="/fa/pages/software.html">نرم‌افزار و کدها</a></li>
+                        </ul>
+                    </div>
 
-                    <a href="/fa/research.html">
-                        پژوهش
-                    </a>
-
-
-                    <a href="/fa/publications.html">
+                    <a href="/fa/pages/publications.html">
                         مقالات
                     </a>
 
+                    <div class="nav-item has-dropdown">
+                        <a href="/fa/pages/teaching.html">
+                            تدریس
+                        </a>
+                        <button class="submenu-toggle" aria-label="باز و بسته کردن زیرمنوی تدریس" aria-expanded="false">
+                            ▾
+                        </button>
+                        <ul class="submenu">
+                            <li><a href="/fa/pages/courses.html">دروس</a></li>
+                            <li><a href="/fa/pages/lecture-notes.html">جزوات درسی</a></li>
+                            <li><a href="/fa/pages/videos.html">ویدئوها</a></li>
+                        </ul>
+                    </div>
 
-                    <a href="/fa/teaching.html">
-                        تدریس
-                    </a>
-
-
-                    <a href="/fa/courses.html">
-                        دروس
-                    </a>
-
-
-                    <a href="/fa/videos.html">
-                        ویدئوها
-                    </a>
-
-
-                    <a href="/fa/software.html">
-                        نرم‌افزار و کدها
-                    </a>
-
-
-                    <a href="/fa/contact.html">
+                    <a href="/fa/pages/contact.html">
                         تماس
                     </a>
 
-
-                    <a href="/index.html"
-                       class="mobile-language">
-
-                        EN
-
-                    </a>
-
-
                 </div>
-
-
-                <!-- =========================
-                     Desktop Language
-                ========================== -->
 
                 <div class="nav-actions">
 
-                    <a href="/index.html">
+                    <button
+                        class="language-switch"
+                        onclick="window.location.href='/index.html'">
                         EN
-                    </a>
+                    </button>
+
+                    <button class="dark-mode-toggle">
+                        ◐
+                    </button>
 
                 </div>
 
+                <button
+                    class="mobile-menu-toggle"
+                    aria-label="باز و بسته کردن منو"
+                    aria-expanded="false">
+                    ☰
+                </button>
 
             </div>
 
         </nav>
-
     `;
-
-
-    // =========================
-    // Mobile Menu
-    // =========================
-
-    const menuButton =
-        navbarContainer.querySelector(".mobile-menu-toggle");
-
-    const navMenu =
-        navbarContainer.querySelector(".nav-menu");
-
-
-    if (menuButton && navMenu) {
-
-        menuButton.addEventListener("click", () => {
-
-            navMenu.classList.toggle("mobile-menu-open");
-
-
-            const isOpen =
-                navMenu.classList.contains("mobile-menu-open");
-
-
-            menuButton.setAttribute(
-                "aria-expanded",
-                isOpen
-            );
-
-        });
-
-
-        // Close menu after selecting a link
-
-        navMenu.querySelectorAll("a").forEach(link => {
-
-            link.addEventListener("click", () => {
-
-                navMenu.classList.remove(
-                    "mobile-menu-open"
-                );
-
-                menuButton.setAttribute(
-                    "aria-expanded",
-                    "false"
-                );
-
-            });
-
-        });
-
-    }
 
 });

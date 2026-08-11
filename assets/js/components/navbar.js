@@ -18,21 +18,37 @@ window.navbar = `
                 About
             </a>
 
-            <a href="/pages/research.html">
-                Research
-            </a>
+            <div class="nav-item has-dropdown">
+                <a href="/pages/research.html">
+                    Research
+                </a>
+                <button class="submenu-toggle" aria-label="Toggle Research submenu" aria-expanded="false">
+                    ▾
+                </button>
+                <ul class="submenu">
+                    <li><a href="/pages/research.html#areas">Research Areas</a></li>
+                    <li><a href="/pages/research.html#projects">Projects</a></li>
+                    <li><a href="/pages/software.html">Software &amp; Codes</a></li>
+                </ul>
+            </div>
 
             <a href="/pages/publications.html">
                 Publications
             </a>
 
-            <a href="/pages/teaching.html">
-                Teaching
-            </a>
-
-           <a href="/pages/courses.html">
-                Courses
-            </a>
+            <div class="nav-item has-dropdown">
+                <a href="/pages/teaching.html">
+                    Teaching
+                </a>
+                <button class="submenu-toggle" aria-label="Toggle Teaching submenu" aria-expanded="false">
+                    ▾
+                </button>
+                <ul class="submenu">
+                    <li><a href="/pages/courses.html">Courses</a></li>
+                    <li><a href="/pages/lecture-notes.html">Lecture Notes</a></li>
+                    <li><a href="/pages/videos.html">Videos</a></li>
+                </ul>
+            </div>
 
             <a href="/pages/contact.html">
                 Contact
@@ -54,6 +70,13 @@ window.navbar = `
             </button>
 
         </div>
+
+        <button
+            class="mobile-menu-toggle"
+            aria-label="Toggle menu"
+            aria-expanded="false">
+            ☰
+        </button>
 
     </div>
 
