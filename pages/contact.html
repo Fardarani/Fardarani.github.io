@@ -72,9 +72,7 @@
                     </h3>
 
                     <p>
-                        <a href="mailto:ahmadi.darani@sku.ac.ir">
-                            ahmadi.darani@sku.ac.ir
-                        </a>
+                        <a href="#" id="university-email"></a>
                     </p>
 
                 </div>
@@ -87,9 +85,7 @@
                     </h3>
 
                     <p>
-                        <a href="mailto:farshidahmadi633@gmail.com">
-                            farshidahmadi633@gmail.com
-                        </a>
+                        <a href="#" id="personal-email"></a>
                     </p>
 
                 </div>
@@ -153,6 +149,53 @@
 
 <script src="/assets/js/main.js"></script>
 
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+
+        const universityUser = "ahmadi.darani";
+        const universityDomain = "sku.ac.ir";
+
+        const personalUser = "farshidahmadi633";
+        const personalDomain = "gmail.com";
+
+
+        const universityEmail =
+            universityUser + "@" + universityDomain;
+
+        const personalEmail =
+            personalUser + "@" + personalDomain;
+
+
+        const universityLink =
+            document.getElementById("university-email");
+
+        const personalLink =
+            document.getElementById("personal-email");
+
+
+        if (universityLink) {
+
+            universityLink.href =
+                "mailto:" + universityEmail;
+
+            universityLink.textContent =
+                universityEmail;
+
+        }
+
+
+        if (personalLink) {
+
+            personalLink.href =
+                "mailto:" + personalEmail;
+
+            personalLink.textContent =
+                personalEmail;
+
+        }
+
+    });
+    </script>
 
 </body>
 
